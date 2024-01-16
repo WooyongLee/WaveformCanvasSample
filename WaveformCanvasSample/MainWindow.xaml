@@ -4,9 +4,24 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WaveformCanvasSample"
+        xmlns:glgraph="clr-namespace:GLGraphLib;assembly=GLGraphLib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1280">
     <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="LoadWfButton" Content=" Load WF " Margin="5" Click="LoadWfButton_Click"></Button>
+                <Button x:Name="LoadCfButton" Content=" Load Cf " Margin="5" Click="LoadCfButton_Click"></Button>
+                <Button x:Name="ClearButton" Content=" Clear" Margin="5" Click="ClearButton_Click"></Button>
+            </StackPanel>
+            
+            <local:WaveformCanvas x:Name="waveformCanvas_I" HorizontalAlignment="Left" Margin="5"
+                                  Height="120" Width="1025"></local:WaveformCanvas>
+            <local:WaveformView x:Name="waveformView" HorizontalAlignment="Left" Margin="5"
+                                Height="120" Width="1025" MinY="-16000" MaxY="16000"
+                                PaddingHorizontal="25" PaddingVertical="1"></local:WaveformView>
+            <TextBlock x:Name="WindowWidthHeightTextBlock" Margin="5" ></TextBlock>
+        </StackPanel>
         
     </Grid>
 </Window>

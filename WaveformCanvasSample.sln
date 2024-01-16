@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveformCanvasSample", "WaveformCanvasSample\WaveformCanvasSample.csproj", "{9955139A-0794-409C-8F4F-662CC7170C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLGraphLib", "..\FormGraphTest\GLGraphLib\GLGraphLib.csproj", "{C70F2DB7-75B6-4248-BC91-900FEADE6B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9955139A-0794-409C-8F4F-662CC7170C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9955139A-0794-409C-8F4F-662CC7170C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9955139A-0794-409C-8F4F-662CC7170C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70F2DB7-75B6-4248-BC91-900FEADE6B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70F2DB7-75B6-4248-BC91-900FEADE6B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70F2DB7-75B6-4248-BC91-900FEADE6B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70F2DB7-75B6-4248-BC91-900FEADE6B93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
